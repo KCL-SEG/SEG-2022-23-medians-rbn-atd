@@ -11,9 +11,8 @@ while True:
     else:
         break
 
-numlen = len(numbers)
-median = 0
-if numlen%2 != 0:
-    print(numbers[int((numlen)//2)])
+numlength = len(numbers)
+if numlength%2 != 0:
+    print(numbers[int((numlength)//2)])
 else:
-    print( (( numbers[int(numlen/2)-1] ) + numbers[int(numlen/2)]) / 2)
+    print( (( numbers[int(numlength/2)-1] ) + numbers[int(numlength/2)]) / 2)
